@@ -120,7 +120,7 @@ public class Main {
     static JButton primaryBtn(String t) {
         JButton b = new JButton(t);
         b.setBackground(C_PRIMARY);
-        b.setForeground(Color.WHITE);
+        b.setForeground(Color.BLACK);
         b.setFont(F_BODY);
         b.setFocusPainted(false);
         b.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
