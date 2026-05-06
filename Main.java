@@ -62,8 +62,8 @@ public class Main {
         Booking(String id, String hoTen, String email, String dienThoai, String donVi,
                 String noiDung, String loaiPhong, String roomId,
                 String ngaySuDung, String caSuDung, String lyDo, Status status) {
-            this.id = id; this.hoTen = hoTen; this.email = email;
-            this.dienThoai = dienThoai; this.donVi = donVi;
+            this.id = id; this.hoTen = hoTen; this.email = email; this.dienThoai = dienThoai;
+            this.donVi = donVi;
             this.noiDung = noiDung; this.loaiPhong = loaiPhong;
             this.roomId = roomId; this.ngaySuDung = ngaySuDung;
             this.caSuDung = caSuDung; this.lyDo = lyDo;
