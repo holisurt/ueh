@@ -1,22 +1,17 @@
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.table.*;
+import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.awt.BorderLayout;
-import java.awt.event.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
-import java.util.stream.*;
+import javax.swing.*;
+import javax.swing.table.*;
 
 public class Main {
 
@@ -24,8 +19,6 @@ public class Main {
     static final Color C_PRIMARY   = new Color(0x18, 0x5F, 0xA5);
     static final Color C_PRIMARY_L = new Color(0xE6, 0xF1, 0xFB);
     static final Color C_SUCCESS   = new Color(0x3B, 0x6D, 0x11);
-    static final Color C_DANGER    = new Color(0xA3, 0x2D, 0x2D);
-    static final Color C_WARN      = new Color(0x85, 0x4F, 0x0B);
     static final Color C_BG        = Color.WHITE;
     static final Color C_BG2       = new Color(0xF1, 0xEF, 0xE8);
     static final Color C_TEXT      = new Color(0x2C, 0x2C, 0x2A);
